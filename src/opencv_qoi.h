@@ -31,7 +31,7 @@ public:
 
 	cv::Mat imreadQOI(std::string qoi_filepath, bool read_color = true, int mat_type = CV_8UC3);
 
-	void imwriteQOI(const std::string dst_save_path, const const cv::Mat ocv_mat, bool update_dimensions = false); 
+	void imwriteQOI(const std::string dst_save_path, const cv::Mat ocv_mat, bool update_dimensions = false); 
 
 	void setImgDimensions(const int w, const int h, const int c) {
 		img_wid = w;
